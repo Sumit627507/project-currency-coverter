@@ -1,5 +1,4 @@
 # Currency converter program with INR as base currency
-
 # Conversion rates (with INR as the base currency)
 conversion_rates = {
     "INR": 1.0,  # Base currency
@@ -35,4 +34,3 @@ if from_currency in conversion_rates and to_currency in conversion_rates:
     print(f"{amount:.2f} {from_currency} = {result:.2f} {to_currency}")
 else:
     print("Invalid currency code. Please check and try again.")
- 
