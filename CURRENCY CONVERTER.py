@@ -1,5 +1,7 @@
-.def currency_converter():
-    
+from forex_python.converter import CurrencyRates
+
+def currency_converter():
+    c = CurrencyRates()
 
     print("Currency Converter")
     print("Supported currencies: USD, EUR, INR, GBP, AUD, etc.")
@@ -15,4 +17,5 @@
         print("Error:", e)
 
 if __name__ == "__main__":
+    currency_converter()
  
